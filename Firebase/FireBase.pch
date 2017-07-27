@@ -1,0 +1,18 @@
+//
+//  FireBase.pch
+//  Firebase
+//
+//  Created by Nishant on 26/06/17.
+//  Copyright © 2017 Systematix. All rights reserved.
+//
+
+#ifndef FireBase_pch
+#define FireBase_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "GeneralSetting.h"
+#import "SWRevealViewController.h" // side menu controller
+
+@import Firebase;
+#endif /* FireBase_pch */

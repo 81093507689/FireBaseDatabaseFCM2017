@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198582D71F00D9A00089B978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198582D61F00D9A00089B978 /* main.m */; };
+		198582DA1F00D9A00089B978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 198582D91F00D9A00089B978 /* AppDelegate.m */; };
+		198582DD1F00D9A00089B978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198582DC1F00D9A00089B978 /* ViewController.m */; };
+		198582E01F00D9A00089B978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198582DE1F00D9A00089B978 /* Main.storyboard */; };
+		198582E21F00D9A00089B978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198582E11F00D9A00089B978 /* Assets.xcassets */; };
+		198582E51F00D9A00089B978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198582E31F00D9A00089B978 /* LaunchScreen.storyboard */; };
+		198582ED1F00DAF70089B978 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 198582EC1F00DAF70089B978 /* GoogleService-Info.plist */; };
+		19877EC61F03921500759C2D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19877EC51F03921500759C2D /* ProfileViewController.m */; };
+		19C858981F00E8CB00DC9A4C /* GeneralSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858971F00E8CB00DC9A4C /* GeneralSetting.m */; };
+		19C858A01F00ECEE00DC9A4C /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C8589F1F00ECEE00DC9A4C /* RegistrationViewController.m */; };
+		19C858A51F00F0DB00DC9A4C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858A41F00F0DB00DC9A4C /* SWRevealViewController.m */; };
+		19C858A91F00F18200DC9A4C /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858A81F00F18200DC9A4C /* SideMenuViewController.m */; };
+		19C858AC1F00F19100DC9A4C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858AB1F00F19100DC9A4C /* HomeViewController.m */; };
+		19C858AF1F00FDD400DC9A4C /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858AE1F00FDD400DC9A4C /* SideMenuTableViewCell.m */; };
+		19C858B21F0100EE00DC9A4C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858B11F0100EE00DC9A4C /* ListViewController.m */; };
+		19C858B61F01053700DC9A4C /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858B51F01053700DC9A4C /* PostTableViewCell.m */; };
+		19C858B91F011E0D00DC9A4C /* MyPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858B81F011E0D00DC9A4C /* MyPostViewController.m */; };
+		19C858BC1F011EA500DC9A4C /* EditPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C858BB1F011EA500DC9A4C /* EditPostViewController.m */; };
+		19FB3B9E1F0A6246005ACEAE /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FB3B9D1F0A6246005ACEAE /* NetworkManager.m */; };
+		B7980875D807843A06075392 /* libPods-Firebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B26E7E3FDF24BABC4B9006 /* libPods-Firebase.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		198582D21F00D9A00089B978 /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		198582D61F00D9A00089B978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		198582D81F00D9A00089B978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		198582D91F00D9A00089B978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		198582DB1F00D9A00089B978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		198582DC1F00D9A00089B978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		198582DF1F00D9A00089B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		198582E11F00D9A00089B978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198582E41F00D9A00089B978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		198582E61F00D9A00089B978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198582EC1F00DAF70089B978 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19877EC41F03921500759C2D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		19877EC51F03921500759C2D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		19C858961F00E8CB00DC9A4C /* GeneralSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSetting.h; sourceTree = "<group>"; };
+		19C858971F00E8CB00DC9A4C /* GeneralSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSetting.m; sourceTree = "<group>"; };
+		19C858991F00E8E900DC9A4C /* FireBase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireBase.pch; sourceTree = "<group>"; };
+		19C8589E1F00ECEE00DC9A4C /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		19C8589F1F00ECEE00DC9A4C /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		19C858A31F00F0DB00DC9A4C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		19C858A41F00F0DB00DC9A4C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		19C858A71F00F18200DC9A4C /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		19C858A81F00F18200DC9A4C /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		19C858AA1F00F19100DC9A4C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		19C858AB1F00F19100DC9A4C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		19C858AD1F00FDD400DC9A4C /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		19C858AE1F00FDD400DC9A4C /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		19C858B01F0100EE00DC9A4C /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		19C858B11F0100EE00DC9A4C /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		19C858B41F01053700DC9A4C /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostTableViewCell.h; path = Post/PostTableViewCell.h; sourceTree = "<group>"; };
+		19C858B51F01053700DC9A4C /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostTableViewCell.m; path = Post/PostTableViewCell.m; sourceTree = "<group>"; };
+		19C858B71F011E0D00DC9A4C /* MyPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPostViewController.h; sourceTree = "<group>"; };
+		19C858B81F011E0D00DC9A4C /* MyPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPostViewController.m; sourceTree = "<group>"; };
+		19C858BA1F011EA500DC9A4C /* EditPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPostViewController.h; sourceTree = "<group>"; };
+		19C858BB1F011EA500DC9A4C /* EditPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPostViewController.m; sourceTree = "<group>"; };
+		19FB3B9A1F0A4E95005ACEAE /* Firebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Firebase.entitlements; sourceTree = "<group>"; };
+		19FB3B9C1F0A6246005ACEAE /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		19FB3B9D1F0A6246005ACEAE /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7ECEC35631AA6CD5AD933177 /* Pods-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase/Pods-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		82B26E7E3FDF24BABC4B9006 /* libPods-Firebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Firebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06012B66250EC297E898400 /* Pods-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase/Pods-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198582CF1F00D9A00089B978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7980875D807843A06075392 /* libPods-Firebase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198582C91F00D9A00089B978 = {
+			isa = PBXGroup;
+			children = (
+				198582D41F00D9A00089B978 /* Firebase */,
+				198582D31F00D9A00089B978 /* Products */,
+				41317B007BFC221D2D6563E9 /* Pods */,
+				9D7E4BDBDFFA8BA24029BF6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		198582D31F00D9A00089B978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198582D21F00D9A00089B978 /* Firebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198582D41F00D9A00089B978 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				19FB3B9A1F0A4E95005ACEAE /* Firebase.entitlements */,
+				19C858A11F00F0DB00DC9A4C /* Utility */,
+				19C8589D1F00ECEE00DC9A4C /* ALLView */,
+				19C858951F00E8CB00DC9A4C /* General */,
+				198582EC1F00DAF70089B978 /* GoogleService-Info.plist */,
+				198582D81F00D9A00089B978 /* AppDelegate.h */,
+				198582D91F00D9A00089B978 /* AppDelegate.m */,
+				198582DB1F00D9A00089B978 /* ViewController.h */,
+				198582DC1F00D9A00089B978 /* ViewController.m */,
+				198582DE1F00D9A00089B978 /* Main.storyboard */,
+				198582E11F00D9A00089B978 /* Assets.xcassets */,
+				198582E31F00D9A00089B978 /* LaunchScreen.storyboard */,
+				198582E61F00D9A00089B978 /* Info.plist */,
+				198582D51F00D9A00089B978 /* Supporting Files */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		198582D51F00D9A00089B978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198582D61F00D9A00089B978 /* main.m */,
+				19C858991F00E8E900DC9A4C /* FireBase.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19877EC31F03920500759C2D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				19877EC41F03921500759C2D /* ProfileViewController.h */,
+				19877EC51F03921500759C2D /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		19C858951F00E8CB00DC9A4C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				19C858961F00E8CB00DC9A4C /* GeneralSetting.h */,
+				19C858971F00E8CB00DC9A4C /* GeneralSetting.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		19C8589D1F00ECEE00DC9A4C /* ALLView */ = {
+			isa = PBXGroup;
+			children = (
+				19877EC31F03920500759C2D /* Profile */,
+				19C858B31F01042800DC9A4C /* Cell */,
+				19C858A61F00F18200DC9A4C /* SideMenu */,
+				19C8589E1F00ECEE00DC9A4C /* RegistrationViewController.h */,
+				19C8589F1F00ECEE00DC9A4C /* RegistrationViewController.m */,
+				19C858AA1F00F19100DC9A4C /* HomeViewController.h */,
+				19C858AB1F00F19100DC9A4C /* HomeViewController.m */,
+				19C858B01F0100EE00DC9A4C /* ListViewController.h */,
+				19C858B11F0100EE00DC9A4C /* ListViewController.m */,
+				19C858B71F011E0D00DC9A4C /* MyPostViewController.h */,
+				19C858B81F011E0D00DC9A4C /* MyPostViewController.m */,
+				19C858BA1F011EA500DC9A4C /* EditPostViewController.h */,
+				19C858BB1F011EA500DC9A4C /* EditPostViewController.m */,
+			);
+			path = ALLView;
+			sourceTree = "<group>";
+		};
+		19C858A11F00F0DB00DC9A4C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				19FB3B9B1F0A6246005ACEAE /* NetworkManager */,
+				19C858A21F00F0DB00DC9A4C /* SWRevealViewController */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		19C858A21F00F0DB00DC9A4C /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				19C858AD1F00FDD400DC9A4C /* SideMenuTableViewCell.h */,
+				19C858AE1F00FDD400DC9A4C /* SideMenuTableViewCell.m */,
+				19C858A31F00F0DB00DC9A4C /* SWRevealViewController.h */,
+				19C858A41F00F0DB00DC9A4C /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		19C858A61F00F18200DC9A4C /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				19C858A71F00F18200DC9A4C /* SideMenuViewController.h */,
+				19C858A81F00F18200DC9A4C /* SideMenuViewController.m */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		19C858B31F01042800DC9A4C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19C858B41F01053700DC9A4C /* PostTableViewCell.h */,
+				19C858B51F01053700DC9A4C /* PostTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		19FB3B9B1F0A6246005ACEAE /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				19FB3B9C1F0A6246005ACEAE /* NetworkManager.h */,
+				19FB3B9D1F0A6246005ACEAE /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		41317B007BFC221D2D6563E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06012B66250EC297E898400 /* Pods-Firebase.debug.xcconfig */,
+				7ECEC35631AA6CD5AD933177 /* Pods-Firebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D7E4BDBDFFA8BA24029BF6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B26E7E3FDF24BABC4B9006 /* libPods-Firebase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198582D11F00D9A00089B978 /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198582E91F00D9A00089B978 /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				D526F3171BD264C5ABA2F248 /* [CP] Check Pods Manifest.lock */,
+				198582CE1F00D9A00089B978 /* Sources */,
+				198582CF1F00D9A00089B978 /* Frameworks */,
+				198582D01F00D9A00089B978 /* Resources */,
+				48DA59AF5C698C7DAC0D1145 /* [CP] Embed Pods Frameworks */,
+				5434F0023361CDEE5A3791FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = Firebase;
+			productReference = 198582D21F00D9A00089B978 /* Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198582CA1F00D9A00089B978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Systematix;
+				TargetAttributes = {
+					198582D11F00D9A00089B978 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7E7WKW772Q;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 198582CD1F00D9A00089B978 /* Build configuration list for PBXProject "Firebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198582C91F00D9A00089B978;
+			productRefGroup = 198582D31F00D9A00089B978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198582D11F00D9A00089B978 /* Firebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198582D01F00D9A00089B978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198582E51F00D9A00089B978 /* LaunchScreen.storyboard in Resources */,
+				198582ED1F00DAF70089B978 /* GoogleService-Info.plist in Resources */,
+				198582E21F00D9A00089B978 /* Assets.xcassets in Resources */,
+				198582E01F00D9A00089B978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48DA59AF5C698C7DAC0D1145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase/Pods-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5434F0023361CDEE5A3791FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase/Pods-Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D526F3171BD264C5ABA2F248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198582CE1F00D9A00089B978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C858B91F011E0D00DC9A4C /* MyPostViewController.m in Sources */,
+				19C858B21F0100EE00DC9A4C /* ListViewController.m in Sources */,
+				19C858BC1F011EA500DC9A4C /* EditPostViewController.m in Sources */,
+				198582DD1F00D9A00089B978 /* ViewController.m in Sources */,
+				19877EC61F03921500759C2D /* ProfileViewController.m in Sources */,
+				19C858AF1F00FDD400DC9A4C /* SideMenuTableViewCell.m in Sources */,
+				198582DA1F00D9A00089B978 /* AppDelegate.m in Sources */,
+				19C858A01F00ECEE00DC9A4C /* RegistrationViewController.m in Sources */,
+				198582D71F00D9A00089B978 /* main.m in Sources */,
+				19C858981F00E8CB00DC9A4C /* GeneralSetting.m in Sources */,
+				19C858A91F00F18200DC9A4C /* SideMenuViewController.m in Sources */,
+				19C858A51F00F0DB00DC9A4C /* SWRevealViewController.m in Sources */,
+				19C858B61F01053700DC9A4C /* PostTableViewCell.m in Sources */,
+				19FB3B9E1F0A6246005ACEAE /* NetworkManager.m in Sources */,
+				19C858AC1F00F19100DC9A4C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		198582DE1F00D9A00089B978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198582DF1F00D9A00089B978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		198582E31F00D9A00089B978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198582E41F00D9A00089B978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198582E71F00D9A00089B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		198582E81F00D9A00089B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198582EA1F00D9A00089B978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06012B66250EC297E898400 /* Pods-Firebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Firebase/Firebase.entitlements;
+				DEVELOPMENT_TEAM = 7E7WKW772Q;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Firebase/FireBase.pch";
+				INFOPLIST_FILE = Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veneer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d6c8ce53-1756-4051-bd2e-4ef8c33d9e41";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_VeneerApp_new;
+			};
+			name = Debug;
+		};
+		198582EB1F00D9A00089B978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECEC35631AA6CD5AD933177 /* Pods-Firebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Firebase/Firebase.entitlements;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Firebase/FireBase.pch";
+				INFOPLIST_FILE = Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Veneer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198582CD1F00D9A00089B978 /* Build configuration list for PBXProject "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198582E71F00D9A00089B978 /* Debug */,
+				198582E81F00D9A00089B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198582E91F00D9A00089B978 /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198582EA1F00D9A00089B978 /* Debug */,
+				198582EB1F00D9A00089B978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198582CA1F00D9A00089B978 /* Project object */;
+}
